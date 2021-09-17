@@ -8,7 +8,6 @@ namespace SanitizationService.SanitizationService.Core.Entities.AbcSanitizer
         internal const int BlockSize = 3;
         private readonly char[] _block = new char[BlockSize];
         private readonly char[] _allowedWildCards = new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-        public int Size => BlockSize;
 
         public char[] GetBlock()
         {
